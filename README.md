@@ -2,11 +2,9 @@
 
 ###### Alternate names are:
 
-###### Single Visit Node Pathing for Maximum Nodes Traveled Within Distance 
+###### Single Visit Node Pathing for Maximum Nodes Traveled Within Distance Between Individual Nodes
 
-###### Between Individual Nodes
-
-Visit Maximizing Node Linker Within Distance Between Individual Nodes
+###### Visit Maximizing Node Linker Within Distance Between Individual Nodes
 
 The original purpose for this code was to find paths for InTsumnia which would send them to InTsumniApp where they'd be sent as inputs to an Android emulator. An example video can be seen here: https://www.youtube.com/watch?v=PrNEHAkbyLE
 
@@ -66,3 +64,5 @@ Node Loc: X: 70, Y: 20
 Node Loc: X: 25, Y: 40
 Node Loc: X: 84, Y: 20
 ```
+
+To use, simply include the PathingLibrary.cpp and PathingLibrary.h files in your CPP 11+ project and call CreatePaths - the function will fill the containers provided to it with the pathing data.
