@@ -16,7 +16,8 @@ This project comes in the form of a command line tool that requires building and
 
 Below is a copy and paste of the already included example that the project comes saddled with. I highly recommend removing both "main" functions as they serve no other purpose.
 
-`namespace SVNL
+```
+namespace SVNL
 {
 int main()
 {
@@ -63,4 +64,5 @@ Next Path:
 Node Loc: X: 50, Y: 50
 Node Loc: X: 70, Y: 20
 Node Loc: X: 25, Y: 40
-Node Loc: X: 84, Y: 20`
+Node Loc: X: 84, Y: 20
+```
